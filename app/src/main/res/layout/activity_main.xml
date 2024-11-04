@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hello"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/violet"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="136dp"
+        android:text="This is a simple basic application that does random things with super random buttons!"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/orange"
+        android:text="Activities"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        app:rippleColor="@color/pink" />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/red"
+        android:text="Random"
+        android:textColor="@color/indigo"
+        android:textSize="24sp"
+        app:rippleColor="@color/yellow" />
+
+    <Button
+        android:id="@+id/btn_webbrowser"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/yellow"
+        android:text="Jumia"
+        android:textColor="@color/gray"
+        android:textSize="24sp"
+        app:rippleColor="@color/red" />
+
+    <Button
+        android:id="@+id/btn_showMap"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/indigo"
+        android:text="Maps"
+        android:textColor="@color/pink"
+        android:textSize="24sp"
+        app:rippleColor="@color/violet" />
+
+    <Button
+        android:id="@+id/btn_makecalls"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/blue"
+        android:text="Call home"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:rippleColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_chooseContact"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/pink"
+        android:text="Contacts"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        app:rippleColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_launchMyBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/green"
+        android:text="Google"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        app:rippleColor="@color/red" />
+
+</LinearLayout>
